@@ -1,5 +1,8 @@
 (ns tick
-  (:require [tick.alpha.api :as t]
+  (:require [cljsjs.js-joda]
+            [cljsjs.js-joda-timezone]
+            [cljsjs.js-joda-locale-en-us]
+            [tick.alpha.api :as t]
             [tick.timezone]))
 
 ; ok
